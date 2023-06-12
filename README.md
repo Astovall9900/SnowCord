@@ -1,2 +1,2 @@
 # SnowCord
- Discord Clone With My Own Twist
+ Discord Clone but improved
