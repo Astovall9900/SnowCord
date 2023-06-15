@@ -1,5 +1,7 @@
 import React from 'react'
 import './Landing.css'
+import flag from '../assets/images/flag.png'
+import sparkles from '../assets/images/sparkles.svg'
 import svg1 from '../assets/images/section-1.svg'
 import svg2 from '../assets/images/section-2.svg'
 import svg3 from '../assets/images/section-3.svg'
@@ -119,6 +121,42 @@ const Landing = () => {
         <img src={svg4} alt="" className="grid-image"/>
     </div>
 </section>
+
+<section className='download'>
+    <div className="row container remove-grid">
+        <img src={sparkles} alt="" className='sparkles'/>
+        <h2>Ready to start your journey?</h2>
+        <a href="#" className="btn btn-large btn-brand">
+            <i className="bx bx-download"></i> Download for Windows
+        </a>
+    </div>
+</section>
+
+<footer className="main-footer">
+    <div className="row container">
+        <div className="info-box">
+            <h4 className="footer-title">Your place to talk</h4>
+            <div className="languages">
+                <img src={flag} alt="" />
+                <span>English, USA</span> <i className="bx bx-chevron-down"></i>
+            </div>
+            <div className="social-media">
+                <a href="#" className="sm-link">
+                    <i className="bx bxl-twitter"></i>
+                </a>
+                <a href="#" className="sm-link">
+                    <i className="bx bxl-instagram"></i>
+                </a>
+                <a href="#" className="sm-link">
+                    <i className="bx bxl-facebook-square"></i>
+                </a>
+                <a href="#" className="sm-link">
+                    <i className="bx bxl-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
     </>
   )
 }

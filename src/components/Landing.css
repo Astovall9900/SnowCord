@@ -250,3 +250,37 @@ img {
     margin-top: 2.4rem;
 }
 
+/* download */
+
+.download {
+    background-color: var(--off-white-clr);
+}
+
+.download .remove-grid{
+    display: block;
+    padding-top: 0;
+    text-align: center;
+}
+
+.sparkles {
+    display: inline-block;
+}
+
+.download h2 {
+    font-size: 3.2rem;
+    font-family: var(--main-font-family-medium);
+}
+
+.btn-brand {
+    background-color: var(--brand-clr);
+    color: var(--light-clr);
+    transition: background-color .5s;
+}
+
+.download .btn-brand {
+    margin-top:  4rem;
+}
+
+.btn-brand:hover{
+    background-color: #8ea1e1;
+}
