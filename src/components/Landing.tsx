@@ -1,5 +1,8 @@
 import React from 'react'
 import './Landing.css'
+import svg1 from '../assets/images/section-1.svg'
+import svg2 from '../assets/images/section-2.svg'
+import svg3 from '../assets/images/section-3.svg'
 import svg4 from '../assets/images/section-4.svg'
 
 const Landing = () => {
@@ -65,7 +68,7 @@ const Landing = () => {
 
 <section className="collaboration">
     <div className="row container">
-        <img src="./assets/images/section-1.svg" alt="section1" className="grid-image"/>
+        <img src={svg1} alt="section1" className="grid-image"/>
         <div className="text-group">
             <h2 className="title secondary-title">
                 An invite-only place with plenty of room to talk
@@ -81,10 +84,10 @@ const Landing = () => {
 
 <section className="voice-channel">
     <div className="row container">
-        <img src="./assets/images/section-2.svg" alt="" className="grid-image order-2"/>
+        <img src={svg2} alt="" className="grid-image order-2"/>
         <div className="text-group order-1">
             <h2 className="title secondary-title">Where hanging out is easy</h2>
-            <p>Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly pop in to talk without having to call</p>
+            <p>Grab a seat in a voice channel when you&apos;re free. Friends in your server can see you&apos;re around and instantly pop in to talk without having to call</p>
         </div>
     </div>
 </section>
@@ -95,7 +98,7 @@ const Landing = () => {
 
  <section className="moderation-tools">
     <div className="row container">
-        <img src="./assets/images/section-3.svg" alt="" className="grid-image order-2"/>
+        <img src={svg3} alt="" className="grid-image order-2"/>
         <div className="text-group order-1">
             <h2 className="title secondary-title">From a few to a fandom</h2>
             <p>Get a community of any size running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
@@ -111,7 +114,7 @@ const Landing = () => {
     <div className="row container">
         <div className="text-group">
             <h2 className="title secondary-title">Reliable tech for staying close</h2>
-            <p>Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+            <p>Low-latency voice and video feels like you&apos;re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
         </div>
         <img src={svg4} alt="" className="grid-image"/>
     </div>
