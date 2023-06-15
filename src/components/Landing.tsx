@@ -1,5 +1,6 @@
 import React from 'react'
 import './Landing.css'
+import logo from '../assets/images/logo.svg'
 import flag from '../assets/images/flag.png'
 import sparkles from '../assets/images/sparkles.svg'
 import svg1 from '../assets/images/section-1.svg'
@@ -155,6 +156,56 @@ const Landing = () => {
                 </a>
             </div>
         </div>
+        <div className="spacer"></div>
+        <div className="footer-links-group">
+            <h5 className="footer title">Product</h5>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+        </div>
+        <div className="footer-links-group">
+            <h5 className="footer title">Product</h5>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+        </div>
+        <div className="footer-links-group">
+            <h5 className="footer title">Product</h5>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+        </div>
+        <div className="footer-links-group">
+            <h5 className="footer title">Product</h5>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+            <a href="#" className="footer-link">Download</a>
+        </div>
+
+        <div className="divider"></div>
+    </div>
+
+    <div className="row-container remove-grid">
+        <a href="index.html" className="logo">
+            <img src={logo} alt="" />
+        </a>
+        <a href="#" className="btn btn-small btn-brand">Login</a>
     </div>
 </footer>
     </>
