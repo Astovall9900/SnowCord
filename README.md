@@ -1,34 +1,136 @@
-# SnowCord
- This web application is a discord clone but with improvements to the UI and Backend Architecture.
- 
- Discord is an application that handles millions of messages/images and requests a second while also supporting low latency video and audio transmitting.
- 
- Snowcord replicates this on a minute scale to demonstrate the capabilities of a lightweight react application.
- 
- Technologies Used:
- React + Redux - FE
- Firebase - DB / Backend
+<h1 align="center">Snowcord - Open Source Instant Communication Web App</h1>
 
-Angular - The modern web developer's platform
-=============================================
+<p align="center">
+  <br>
+  <i>Instant chat app - for beginner or aspiring fullstack developers
+    <br> Using React, Redux, and Firebase</i>
+  <br>
+</p>
 
-![angular-logo](aio/src/assets/images/logos/angular/angular.png)  
-_Angular is a development platform for building mobile and desktop web applications  
-using TypeScript/JavaScript and other languages._  
+<p align="center">
+  <a href="#"><strong>{{Deployed application coming soon}}</strong></a>
+  <br>
+</p>
 
-[**www.angular.io**](https://www.angular.io)  
+<p align="center">
+  <a href="CONTRIBUTING.md">Contributing Guidelines</a>
+  ·
+  <a href="#">Submit an Issue</a>
+  ·
+  <br>
+  <br>
+</p>
 
-[Contributing Guidelines](CONTRIBUTING.md) · [Submit an Issue](https://github.com/angular/angular/issues) · [Blog](https://blog.angular.io/)  
-  
+## Documentation
 
- [![CI status](https://img.shields.io/circleci/build/github/angular/angular/main.svg?logo=circleci&logoColor=fff&label=CircleCI)](https://circleci.com/gh/angular/workflows/angular/tree/main)  [![Angular on npm](https://img.shields.io/npm/v/@angular/core.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen) ](https://www.npmjs.com/@angular/core)  [![Discord conversation](https://img.shields.io/discord/463752820026376202.svg?logo=discord&logoColor=fff&label=Discord&color=7389d8)](https://discord.gg/angular)
+Discord is an application that handles millions of messages/images and requests a second while also supporting low latency video and audio transmitting.
 
-[![InsightsSnapshot](https://dl.circleci.com/insights-snapshot/gh/angular/angular/main/default_workflow/badge.svg)](https://app.circleci.com/insights/github/angular/angular/workflows/default_workflow?branch=main)
+Snowcord replicates this as a lightweight, responsive, scalable communication application. 
 
-* * *
+Discord, Teams, and Slack are all used for this purpose, but they are not open source.
 
-\## Documentation Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website. - \[Getting Started\]\[quickstart\] - \[Architecture\]\[architecture\] - \[Components and Templates\]\[componentstemplates\] - \[Forms\]\[forms\] - \[API\]\[api\] ### Advanced - \[Angular Elements\]\[angularelements\] - \[Server Side Rendering\]\[ssr\] - \[Schematics\]\[schematics\] - \[Lazy Loading\]\[lazyloading\] - \[Animations\]\[animations\] ## Development Setup ### Prerequisites - Install \[Node.js\] which includes \[Node Package Manager\]\[npm\] ### Setting Up a Project Install the Angular CLI globally: \`\`\` npm install -g @angular/cli \`\`\` Create workspace: \`\`\` ng new \[PROJECT NAME\] \`\`\` Run the application: \`\`\` cd \[PROJECT NAME\] ng serve \`\`\` Angular is cross-platform, fast, scalable, has incredible tooling, and is loved by millions. ## Quickstart \[Get started in 5 minutes\]\[quickstart\]. ## Ecosystem
+**Documentation Coming Soon**
+- [Getting Started][quickstart]
+- [Architecture][architecture]
+- [Components and Templates][componentstemplates]
+- [Forms][forms]
+- [API][api]
 
-![angular ecosystem logos](/docs/images/angular-ecosystem-logos.png)
+## Development Setup
 
-\- \[Angular Command Line (CLI)\]\[cli\] - \[Angular Material\]\[angularmaterial\] ## Changelog \[Learn about the latest improvements\]\[changelog\]. ## Upgrading Check out our \[upgrade guide\](https://update.angular.io/) to find out the best way to upgrade your project. ## Contributing ### Contributing Guidelines Read through our \[contributing guidelines\]\[contributing\] to learn about our submission process, coding rules, and more. ### Want to Help? Want to report a bug, contribute some code, or improve the documentation? Excellent! Read up on our guidelines for \[contributing\]\[contributing\] and then check out one of our issues labeled as \[help wanted\](https://github.com/angular/angular/labels/help%20wanted) or \[good first issue\](https://github.com/angular/angular/labels/good%20first%20issue). ### Code of Conduct Help us keep Angular open and inclusive. Please read and follow our \[Code of Conduct\]\[codeofconduct\]. ## Community Join the conversation and help the community. - \[Twitter\]\[twitter\] - \[Discord\]\[discord\] - \[Gitter\]\[gitter\] - \[YouTube\]\[youtube\] - \[StackOverflow\]\[stackoverflow\] - Find a Local \[Meetup\]\[meetup\] \[!\[Love Angular badge\](https://img.shields.io/badge/angular-love-blue?logo=angular&angular=love)\](https://www.github.com/angular/angular) \*\*Love Angular? Give our repo a star :star: :arrow\_up:.\*\* \[contributing\]: CONTRIBUTING.md \[quickstart\]: https://angular.io/start \[changelog\]: CHANGELOG.md \[ng\]: https://angular.io \[documentation\]: https://angular.io/docs \[angularmaterial\]: https://material.angular.io/ \[cli\]: https://cli.angular.io/ \[architecture\]: https://angular.io/guide/architecture \[componentstemplates\]: https://angular.io/guide/displaying-data \[forms\]: https://angular.io/guide/forms-overview \[api\]: https://angular.io/api \[angularelements\]: https://angular.io/guide/elements \[ssr\]: https://angular.io/guide/universal \[schematics\]: https://angular.io/guide/schematics \[lazyloading\]: https://angular.io/guide/lazy-loading-ngmodules \[node.js\]: https://nodejs.org/ \[npm\]: https://www.npmjs.com/get-npm \[codeofconduct\]: CODE\_OF\_CONDUCT.md \[twitter\]: https://www.twitter.com/angular \[discord\]: https://discord.gg/angular \[gitter\]: https://gitter.im/angular/angular \[stackoverflow\]: https://stackoverflow.com/questions/tagged/angular \[youtube\]: https://youtube.com/angular \[meetup\]: https://www.meetup.com/find/?keywords=angular \[animations\]: https://angular.io/guide/animations
+This application is for fullstack developers to learn react frontend styling and component creation, NPM package management, webpack, and backend development (most of it is handled in the cloud by firebase)
+
+### Prerequisites
+
+- Install [Node.js] which includes [Node Package Manager][npm]
+
+### Setting Up a Project
+
+Install React globally:
+
+```
+npm install -g @react
+```
+
+Install NPM packages / dependencies
+
+```
+npm install
+```
+
+Run the development server
+
+```
+cd [PROJECT NAME]
+npm run start
+```
+
+### MACOS Users
+
+You might have to either enable permissions for your project directory for vscode (or your editor)
+
+Otherwise you will get access error. Also if NPM is giving you issues in the terminal make sure you run the command as 
+
+``sudo npm [blah blah]``
+
+so you run as administrator.
+
+## Firebase
+
+Firebase has extremely good documentation if you are wondering how to set up the database
+
+This database setup can be replicated on AWS, Azure or Firebase.
+
+[Firebase Docs](https://firebase.google.com/docs/database)
+
+## Changelog
+
+[Learn about the latest improvements][changelog].
+
+## Contributing
+
+### Contributing Guidelines
+
+Read through our [contributing guidelines][contributing] to learn about our submission process, coding rules, and more.
+
+### Want to Help?
+
+Want to report a bug, contribute some code, or improve the documentation? Excellent! Read up on our guidelines for [contributing][contributing]
+
+### Code of Conduct
+
+Help us keep Snowcord open and inclusive. Please read and follow our [Code of Conduct][codeofconduct].
+
+## Community
+
+Join the conversation and help the community.
+
+**Socials Coming Soon**
+
+**Love Snowcord? Give our repo a star :star: :arrow_up:.**
+
+[contributing]: CONTRIBUTING.md
+[quickstart]: https://angular.io/start
+[changelog]: CHANGELOG.md
+[ng]: https://angular.io
+[documentation]: https://angular.io/docs
+[angularmaterial]: https://material.angular.io/
+[cli]: https://cli.angular.io/
+[architecture]: https://angular.io/guide/architecture
+[componentstemplates]: https://angular.io/guide/displaying-data
+[forms]: https://angular.io/guide/forms-overview
+[api]: https://angular.io/api
+[angularelements]: https://angular.io/guide/elements
+[ssr]: https://angular.io/guide/universal
+[schematics]: https://angular.io/guide/schematics
+[lazyloading]: https://angular.io/guide/lazy-loading-ngmodules
+[node.js]: https://nodejs.org/
+[npm]: https://www.npmjs.com/get-npm
+[codeofconduct]: CODE_OF_CONDUCT.md
+[twitter]: https://www.twitter.com/angular
+[discord]: https://discord.gg/angular
+[gitter]: https://gitter.im/angular/angular
+[stackoverflow]: https://stackoverflow.com/questions/tagged/angular
+[youtube]: https://youtube.com/angular
+[meetup]: https://www.meetup.com/find/?keywords=angular
+[animations]: https://angular.io/guide/animations
