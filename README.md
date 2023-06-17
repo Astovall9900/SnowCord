@@ -1,6 +1,7 @@
 <h1 align="center">Snowcord - Open Source Instant Communication Web App</h1>
 
 <p align="center">
+  <h2>Development is **In Progress** first production build should be out soon</h2>
   <br>
   <i>Instant chat app - for beginner or aspiring fullstack developers
     <br> Using React, Redux, and Firebase</i>
