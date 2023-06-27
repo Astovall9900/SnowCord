@@ -9,7 +9,7 @@ interface Props {
 const SidebarChannel = (props: Props) => {
   return (
     <div className="sidebar-channel">
-        <h4><span className="sidebar-hash">{props.id}</span>{props.channel}</h4>
+        <h4><span className="sidebar-hash">#</span>{props.channel}</h4>
     </div>
   )
 }

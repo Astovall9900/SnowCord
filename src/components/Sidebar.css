@@ -41,3 +41,35 @@
     display: flex;
     align-items: center;
 }
+
+.sidebar-voice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #808080;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid #808080;
+}
+
+.sidebar-voice-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar-voice-info > h3 {
+    color: #4fb185;
+}
+
+.voice-icon {
+    color: #4fb185;
+}
+
+.sidebar-voice-info > p {
+    font-size: smaller;
+}
+
+.sidebar-voice-icons > .MultiSvgIcon-root {
+    padding: 10px;
+}
+
